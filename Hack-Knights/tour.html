@@ -1,0 +1,762 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive tour and travel agency website design tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="style.css">
+ <style>
+    .red{
+        
+            background-color: rgb(26, 234, 119);
+            color: rgb(228, 153, 13); }
+            .brown{
+                font-size: 12px;
+                color: rgba(236, 145, 9, 0.963);
+            }
+ </style>
+    
+</head>
+<body>
+
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>INDIA </span> TOUR</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-4.mp4"></span>
+       
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="images/vid-4.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+
+
+
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <a href=https://mumbaicity.gov.in/tourist-place/gateway-of-india/>
+        <div class="box">
+           <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/09/Chhatrapati-Shivaji-Terminus.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                
+                <p>Mumbai (also known as Bombay, the official name until 1995) is the capital city of the Indian state of Maharashtra.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> RS.5,999.00 <span>RS.10,000.00</span> </div>
+            </a>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href=https://www.tourmyindia.com/states/jammu-kashmir/><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh57xDZ8dgSOUJpiA2KnR6PS6zIbZHtFzZ3g&usqp=CAU" alt=""></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> jammu & kashmir </h3>
+                <p> The natural beauty and picturesque locations have made it a favoured destination for tourists across the world.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> RS.15,999.00 <span>RS.20,999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href=https://www.tourmyindia.com/states/tamilnadu/chennai.html><img src="data:image/jpeg;base64,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" alt=""></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Chennai </h3>
+                <p>Chennai, on the Bay of Bengal in eastern India, is the capital of the state of Tamil Nadu. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">RS.12,999.00 <span>RS.15,999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <A HREF=https://www.tourmyindia.com/states/himachal/><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLmHm-maNq95KhAGoRy6E-TklquguYMLhOvQ&usqp=CAU" alt=""></A>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Himachal Pardesh </h3>
+                <p>Himachal Pradesh is a northern Indian state in the Himalayas. It's home to scenic mountain towns and resorts such as Dalhousie.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> RS,17,999.00 <span>RS.25,999.00</span> </div>
+                <a href="https://www.tourmyindia.com/states/himachal/" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href=https://www.tourism-of-india.com/bangalore/><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2UVQ0IGJq3zB4OEKbGrpWYItzu07pxlT7aA&usqp=CAU" alt=""></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Bangalore </h3>
+                <p>Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> RS.9,999.00 <span>RS.13,999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href=https://www.tourmyindia.com/states/delhi/><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiWZq5YxQSfKCX1_pR80KydwjwoMJEBs960g&usqp=CAU" alt=""></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Delhi</h3>
+                <p>Delhi Tourism, a government undertaking facilitating tourism since 1975</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">RS.13,599.00 <span>RS.18,999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+      
+        <div class="box">
+            <a href="https://www.makemytrip.com/hotels/">
+            <i class="fas fa-hotel"></i>
+           <h3>affordable hotels</h3>
+            <p>Planning a trip to Asia? Perhaps you'd like to visit some of the continent's most popular travel destinations, like India. INDIA TOUR offers the best prices for hotels in India, with 127666 hotels ready for instant reservation via our secure online booking engine. With our best price guarantee, we are determined to offer you the best hotels at the best prices.</p>
+        </a>
+        </div>
+    
+      
+        <div class="box">
+            <a href="https://www.zomato.com">
+            <i class="fas fa-utensils"></i>
+         <h3>Food and Drinks</h3>
+            <p>INDIA TOUR offers best deals on Food And Drink Tour Packages, we propose you a big range of indian food varieties from the best restaurants in india with affordable prices.</p>
+        </div>
+        </a>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>The health and safety of our travellers is always our first priority, and moreso now than ever. To ensure your well-being and provide peace of mind, we have created enhanced health and safety protocols for our tours as we move toward a responsible return to travel.</p>
+        </div>
+        
+</section>
+
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://i1.wp.com/eatravelandfun.com/wp-content/uploads/2020/09/8633427042535308982_img_2569-e1602587559516.jpg?fit=1200%2C800&ssl=1" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lakshadweep Island</p>
+                <a href="https://www.tourmyindia.com/states/lakshadweep/island.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://lp-cms-production.imgix.net/news/2018/01/taj-mahal-visitor-limits.jpg?w=1200&sharp=10&vib=20" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Symbol Of Love: Taj Mahal.</p>
+                <a href="https://tajmahal.gov.in/" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/top-winter-treks-in-indian-himalayas-feature.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p> Mountains</p>
+                <a href="https://www.tripadvisor.com/Attractions-g293860-Activities-c57-t66-India.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="http://www.newsshare.in/wp-content/uploads/1/Golden-Temple-Amritsar-4K-Wallpaper.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Golden Temple</p>
+                <a href="https://www.tripadvisor.com/Attraction_Review-g303884-d12687575-Reviews-Golden_Temple-Amritsar_Amritsar_District_Punjab.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="http://www.indiahotelandresort.com/blog/wp-content/uploads/2014/02/Five-Star-Hotels-in-Mumbai.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Taj Hotel</p>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/originals/22/be/f0/22bef0e1014aee3e9b8f3e831d1f0e78.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Bandra Warli Sea Link</p>
+                <a href="https://www.tripadvisor.com/Attraction_Review-g304554-d2704519-Reviews-Bandra_Worli_Sea_Link-Mumbai_Maharashtra.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="http://www.india.com/wp-content/uploads/2015/07/ambush.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>National Parks</p>
+                <a href="https://www.getyourguide.com/-l169037/-tc36/?cmp=bing&campaign_id=434111532&adgroup_id=1251244854682616&target_id=dat-2330002578451843%3Aloc-90&match_type=b&ad_id=78202963710335&msclkid=60d97b210be11b04e91118a2959e4794&loc_physical_ms=156145&feed_item_id=&keyword=getyourguide.com&partner_id=CD951&utm_medium=paid_search&utm_source=bing&utm_campaign=ct%3Ddsa%7Cln%3D29%3Aen%7Ctc%3Dus&utm_term=getyourguide.com&gclsrc=3p.ds" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.ytimg.com/vi/YsxWs9QYcdE/maxresdefault.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Beautiful Beaches</p>
+                <a href="https://traveltriangle.com/beach-tour-packages/india" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://image3.mouthshut.com/images/imagesp/925747858s.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lotus Temple</p>
+                <a href="https://www.getyourguide.com/-l11956/?cmp=bing&campaign_id=434111532&adgroup_id=1251244854682616&target_id=dat-2330002578451843%3Aloc-90&match_type=b&ad_id=78202963710338&msclkid=de0f9f7c6f4d111064e9fcfff2803f13&loc_physical_ms=156145&feed_item_id=&keyword=getyourguide.com&partner_id=CD951&utm_medium=paid_search&utm_source=bing&utm_campaign=ct%3Ddsa%7Cln%3D29%3Aen%7Ctc%3Dus&utm_term=getyourguide.com&gclsrc=3p.ds" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://i.pinimg.com/736x/b0/b2/7c/b0b27c6aba57362956a18e999cdd87ea.jpg" alt="">
+                    <h3>Annanya Pandey</h3>
+                    <p>Great location, really pleasant and clean rooms, but the thing that makes this such a good place to stay are the staff. All of the people are incredibly helpful and generous with their time and advice. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://www.wallpapertip.com/wmimgs/96-964581_beautiful-indian-girl-in-pink-and-green-dress.jpg" alt="">
+                    <h3>Radhika Chauhan</h3>
+                    <p>The trip was very organised and there were guides, taxi drivers ready to go at each point inc our journeys on trains and trips to and from the airport. The INDIA TOUR was lovely and certainly orthwhile. The trip notes are very good and useful once home and looking back over the photos.The guides we had were very experienced and gave us some history and background information.         </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+            
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://i.pinimg.com/originals/61/a5/ac/61a5acadf62b05c9d52ce5721c4e1227.jpg" alt="">
+                    <h3>Tarun Sharma</h3>
+                    <p>Best Platform I have Ever Seen For visiting  amazing places in India,This Website Recommends The Best Hotel and Places To Visit.I Recommend this site to all if you plan to discover more India.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://i.pinimg.com/originals/05/f4/e7/05f4e7e0df86a7f8428dc40e2ffb4603.jpg" alt="">
+                    <h3>Divyansh Bhadoriya</h3>
+                    <p> There was always someone to meet us at the destinations. INDIA TOUR was knowledgable and cared about our wellbeing. We had a great group and we all got on well. This was the first time I had visited India and it has left me with the most wonderful memories I just want to go back. We also did a tour the week before and again the tour guides were friendly and knowledgeable. They also asked us what we wanted to do and never rushed us.  </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+ 
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+
+           <a href="mailto:samueltatchum4@gmail.com"> <input type="submit" class="btn" value="send message"></a>
+        </form>
+
+    </div>
+    
+</section>
+
+
+
+<!-- contact section ends -->
+<ul>
+<center><div class="container two-column-respon mg-top-6x mg-bt-6x">
+    <div class="row">
+        <div class="col-sm-12 mg-btn-6x">
+            <div class="shortcode_title title-center title-decoration-bottom-center">
+                <h1 class="title_primary">WHY CHOOSE US?</h1><span class="line_after_title"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+                    <div class="col-sm-3">
+                        <div class="vc_horizontal-inner clickable">
+                            <a href="#">
+                                <div class="wpb_wrapper">
+                                    <div class="widget-icon-box widget-icon-box-base iconbox-center">
+                                        <li>
+                                       <div class="box-icon icon-image ">
+                                            <img src="https://www.traveltoindia.org/images/home/beautiful-places.png" alt="beautiful-places">
+                                        </div>
+                                        
+                                        </li>
+                                        <div class="content-inner">
+                                            <div class="sc-heading article_heading">
+                                                <h2 style="color:#000000" class="heading__primary">BEAUTIFUL PLACES
+                                                </h2>
+                                            </a>
+                                            </div>
+                                            <!-- <div class="desc-icon-box">
+                                                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                         
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-3">
+                        <div class="vc_column-inner clickable">
+                         
+                            <div class="wpb_wrapper">
+                                <div class="widget-icon-box widget-icon-box-base iconbox-center">
+                                   
+                                    <div class="box-icon icon-image circle" style="width:160px">
+                                        <img src="https://www.traveltoindia.org/images/home/passionate-travel.png" alt="passionate travel">
+                                    </div>
+                                
+                                    <div class="content-inner">
+                                        <div class="sc-heading article_heading">
+                                            <h2 style="color:#000000" class="heading__primary">PASSIONATE TRAVEL</h2>
+                                        </div>
+                                   
+                                        <!-- <div class="desc-icon-box">
+                                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="vc_column-inner clickable">
+                            <div class="wpb_wrapper">
+                               
+                                    <div class="widget-icon-box widget-icon-box-base iconbox-center">
+                                    <a href="https://www.air.irctc.co.in/">
+                                        <div class="box-icon icon-image ">
+                                            <img src="https://www.traveltoindia.org/images/home/diverse-destinations.png" alt="diverse destinations">
+                                        </div>
+                                      
+                                        <div class="content-inner">
+                                            <div class="sc-heading article_heading">
+                                                <h2 style="color:#000000" class="heading__primary">DIVERSE DESTINATION</h2>
+                                            </div>
+                                        
+                                            <!-- <div class="desc-icon-box">
+                                                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="vc_column-inner clickable">
+                            <a href="india-popular-tours.html">
+                            <div class="wpb_wrapper">
+                                <div class="widget-icon-box widget-icon-box-base iconbox-center">
+                                    <div class="box-icon icon-image ">
+                                        <img src="https://www.traveltoindia.org/images/home/value-money.png" alt="value money">
+                                    </div>
+                                    <div class="content-inner">
+                                        <div class="sc-heading article_heading">
+                                            <h2 style="color:#000000" class="heading__primary">VALUE FOR MONEY</h2>
+                                        </div>
+                                        <!-- <div class="desc-icon-box">
+                                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </center>
+
+</ul>
+
+<!-- brand section  -->
+
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!-- footer section  -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>We’re on a journey to transform ordinary trips into extraordinary ones. We are your guide, bringing you personal experiences. Wherever your travels take you, we’ll show you the unique and unmissable things to do in your destination. With INDIA TOUR on your side (and in your pocket), creating memorable moments has never been easier. Today, millions have used INDIA TOUR to turn their travel dreams into reality. And we’re just getting started. We're changing the way people connect to the places they visit so anyone can create their dream vacation. It’s your journey, your way.
+            </p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="https://www.tourmyindia.com/states/rajasthan/">Rajasthan</a>
+            <a href="https://www.tourmyindia.com/states/himachal/">Himachal</a>
+            <a href="https://www.tourmyindia.com/states/jammu-kashmir/jammu-kashmir-packages.html">Kashmir</a>
+            <a href="https://www.tourmyindia.com/states/sikkim/sikkim-tour-packages.html">Sikkim</a>
+            <a href="https://www.tourmyindia.com/packages-tour-india/uttarakhand/">Uttarakhnad</a>
+            <a href="https://www.tourmyindia.com/packages-tour-india/kerala-travel-packages/">Kerala</a>
+            <a href="https://www.tourmyindia.com/states/ladakh/ladakh-tour-packages.html">Ladakh</a>
+            <a href="https://www.tourmyindia.com/packages-tour-india/gujarat-tours/">Gujarat</a>
+            <a href="https://www.tourmyindia.com/packages-tour-india/tamilnadu-tours/">Tamil Nadu</a>
+            <a href="https://www.tourmyindia.com/packages-tour-india/arunachal-tours/">Arunachal</a>
+</div>
+        <div class="box">
+            <h3>quick links</h3>-
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/WOWINDIATRAVEL/">facebook</a>
+            <a href="https://www.instagram.com/india_tours_packages/">instagram</a>
+            <a href="https://twitter.com/i/flow/single_sign_on">twitter</a>
+            <a href="https://www.linkedin.com/company/indiadashtours">linkedin</a>
+    
+        </div>
+
+    </div>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+               <div class="brown"><font size="+4"><h1>Team of India Tour</h1></font></div>
+                <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+            </div>
+      
+<div class="box-container">
+ <div class="box">
+    <div class="box">
+        <img src="aditya.jpg" alt="Girl in a jacket" style="width:200px;height:200px;">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> Mr. Aditya Kumar</h3>
+           </div>
+
+        <img src="Samuel.jpg" alt="Girl in a jacket" style="width:200px;height:200px;">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> Mr. Samuel Jordan</h3>
+           </div>
+           <div class="box">
+            <img src="Saikat.jpg" alt="Girl in a jacket" style="width:200px;height:200px;">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Mr. Saikat Manna </h3>
+               </div>
+               <div class="box">
+                <img src="Anand.jpg" alt="Girl in a jacket" style="width:200px;height:200px;">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Mr. Anand Shekhar Mishra</h3>-
+                   </div>
+        
+
+<section class="footer">
+    
+
+    <section class="footer">
+
+        <h1 class="credit"> Created by:- <span> ADITYA KUMAR; SAMUEL JORDAN TATCHUM KOMGUEM; ANAND SHEKHAR MISHRA; SAIKAT MANNA.     
+            </span> | All Rights Reserved ! </h1>
+    
+    </section>
+    
+    <!-- scroll top button  -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
